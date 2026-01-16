@@ -49,12 +49,11 @@
     "@stdlib/utils-library-manifest": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/assert-is-almost-same-value": "github:stdlib-js/assert-is-almost-same-value#main",
     "@stdlib/console-log-each-map": "github:stdlib-js/console-log-each-map#main",
     "@stdlib/constants-float32-eps": "^0.2.2",
     "@stdlib/math-base-assert-is-negative-zerof": "^0.1.3",
     "@stdlib/math-base-assert-is-positive-zerof": "^0.1.3",
-    "@stdlib/math-base-special-abs": "^0.2.2",
+    "@stdlib/number-float32-base-assert-is-almost-same-value": "github:stdlib-js/number-float32-base-assert-is-almost-same-value#main",
     "@stdlib/random-array-uniform": "^0.2.1",
     "@stdlib/random-base-randu": "^0.2.1",
     "@stdlib/utils-try-require": "^0.2.2",
@@ -150,7 +149,6 @@
           ]
         }
       ],
-      "output_policy": "real_floating_point_and_generic",
       "returns": {
         "desc": "hyperbolic arctangent",
         "type": {
@@ -161,14 +159,14 @@
         }
       },
       "keywords": [
-        "atanhf",
+        "atanh",
         "hyperbolic",
         "inverse",
         "tangent",
         "tan"
       ],
       "extra_keywords": [
-        "math.atanhf"
+        "math.atanh"
       ]
     }
   },
